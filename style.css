@@ -34,13 +34,20 @@ label {
 
 form.inputs {
     display: flex;
+    max-width: 400px;
+    margin-inline: auto;
     flex-direction: column;
     align-items: center;
 }
 input {
     width: min(90%, 400px);
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     padding: .5rem 1rem;
+}
+button {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    align-self: flex-end;
 }
 
 .output {
